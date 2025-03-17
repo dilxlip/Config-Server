@@ -1,7 +1,14 @@
 server:
   port: 8081
+
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/microyt
     username: root
     password: okay
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
